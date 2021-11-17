@@ -51,7 +51,7 @@ public class Instruction  extends JFrame implements ActionListener
             buttonpanel.add(applybtn);
             applybtn.addActionListener(this);
 
-            loginbtn = new JButton("TEST");
+            loginbtn = new JButton("D*BOARD");
             loginbtn.setFont(new Font("Arial black.",Font.BOLD,30)); 
             loginbtn.setBounds(390, 10, 140, 50);
             buttonpanel.add(loginbtn);
@@ -141,7 +141,7 @@ public class Instruction  extends JFrame implements ActionListener
          if(e.getSource()==loginbtn)
        {
        
-        
+        new PersonalDetails();
        }  
 
        if(e.getSource()==calbtn)
