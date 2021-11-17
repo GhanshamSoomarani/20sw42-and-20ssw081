@@ -116,12 +116,10 @@ public class Instruction  extends JFrame implements ActionListener
 
          if(e.getSource()==testinstruction)
        {
-        instruct.setText("1- MEHRAN UNIVERSITY OF ENGINEERING AND TECHNOLOGY "+"\n"+
-                     "2- JAMSHORO, SINDH,PAKISTAN (Often referred as Mehran"+"\n"+
-                     "3- University or MUET) is a public research university located in"+"\n"+
-                     "4- Jamshoro, Sindh, Pakistan focused on STEM education."+"\n"+
-                     "5- Established in July 1976, as a campus of the University of "+"\n"+
-                     "6- Sindh, and a year later was chartered as an independent uni.");
+        instruct.setText("1- Attempt all questions. "+"\n"+
+                     "2- Each question contains equal marks."+"\n"+
+                     "3- Each candidate should have admit slip"+"\n"+
+                     "4- Candidate are advised not to bring prohabited things.");
         }  
         if(e.getSource()==test){
           new Test();
